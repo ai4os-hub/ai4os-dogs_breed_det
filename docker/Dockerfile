@@ -25,10 +25,7 @@ LABEL maintainer='V.Kozlov (KIT)'
 ARG pyVer=python3
 
 # What user branch to clone (!)
-ARG branch=master
-
-# If to install JupyterLab
-ARG jlab=true
+ARG branch=main
 
 # Oneclient version, has to match OneData Provider and Linux version
 ARG oneclient_ver=19.02.0.rc2-1~bionic
